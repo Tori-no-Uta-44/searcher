@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${default}",          // 默认系统路径
+                "${workspaceFolder}/include",   // 项目 include 目录
+                "/usr/include",        // 系统头文件路径
+                "/usr/local/include",  // 本地库头文件路径
+                "/home/lzc/SearchEg/include/"  // 自定义绝对路径
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
